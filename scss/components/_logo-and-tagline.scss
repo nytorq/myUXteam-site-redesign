@@ -1,0 +1,29 @@
+.logo {
+  font-family: $font-family--primary;
+  font-weight: $font-weight--semi-bold;
+	line-height: (32px/$base__font-size);
+  color: $white;
+  text-align: center;
+  font-size: em(40px);
+  margin-bottom: 0;
+  margin-top: 1.1em;
+  @media (min-width: $break-l) {
+    text-align: left;
+    margin-left: 1.2em;
+  }
+}
+
+.UX {
+  color: $color-secondary;
+}
+
+.tagline {
+  color: rgba($white, 0.5);
+  text-align: center;
+  font-weight: normal;
+  margin-top: em(-10px);
+  @media (min-width: $break-l) {
+    text-align: left;
+    margin-left: 2.6em;
+  }
+}

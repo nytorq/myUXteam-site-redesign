@@ -1,13 +1,7 @@
 // ==========================================================================
-// Helpers
+// Component Imports
 // ==========================================================================
 
-// Clearfix
-
-%clearfix {
-  &:after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-}
+@import 'icons';
+@import 'logo-and-tagline';
+@import 'buttons';

@@ -1,0 +1,17 @@
+.to-the-top {
+  display: inline-block;
+  width: em(80px);
+  height: em(80px);
+  border-radius: 100%;
+  background-color: rgba($color-secondary,0.75);
+  border: none;
+  position: relative;
+  top: -202px;
+  right: -112px;
+  @media (min-width: $break-l) {
+    right: -873px;
+  }
+  &:hover {
+    background-color: $color-secondary;
+  }
+}
