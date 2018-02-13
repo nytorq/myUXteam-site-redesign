@@ -1,0 +1,27 @@
+// ==========================================================================
+// Utilities
+// ==========================================================================
+
+// Import if Google Fonts URL is defined
+@if variable-exists(font-url--google-Work-Sans) {
+  @import url($font-url--google-Work-Sans);
+}
+
+@if variable-exists(font-url--google-Roboto) {
+  @import url($font-url--google-Roboto);
+}
+
+@if variable-exists(icon-font-url--google) {
+  @import url($icon-font-url--google);
+}
+
+
+// Calculate em values
+@function em($target, $context: $base__font-size) {
+  @return($target/$context) * 1em;
+}
+
+// Functions and Directives
+
+
+// Mixins

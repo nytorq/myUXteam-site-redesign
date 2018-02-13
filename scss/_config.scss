@@ -1,0 +1,39 @@
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+// Font Stacks
+$font-url--google-Work-Sans            : 'https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900';
+$font-url--google-Roboto               : 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i';
+$icon-font-url--google                 : 'https://fonts.googleapis.com/icon?family=Material+Icons';
+$font-family--primary                  : 'Work Sans', 'Arial Black', Arial;
+$font-family--secondary                : 'Roboto', Helvetica, Arial, sans-serif;
+// Font Weights
+$font-weight--thin                     : 100;
+$font-weight--light                    : 300;
+$font-weight--medium                   : 400;
+$font-weight--semi-bold                : 600;
+$font-weight--bold                     : 700;
+$font-weight--ultra-bold               : 900;
+// Descriptive Base Colors
+$white                                 : #fff;
+$black                                 : #0b0b0b;
+
+$loyal-blue                            : #1F3779;
+$empathy-purple                        : #5757E8;
+$progress-cyan                         : #47C4D9;
+$objective-gray                        : #D6D5CC;
+$minimalist-black                      : #353236;
+// Color Usage
+$color-primary                         : $minimalist-black;
+$color-secondary                       : $progress-cyan;
+$color-accent                          : $empathy-purple;
+$color-shadow                          : rgba($minimalist-black, 0.75);
+// Text
+$base__font-size                       : 16px;
+$base__line                            : 24px;
+// Breakpoint
+$break-xs                              : 575px;
+$break-s                               : 576px;
+$break-m                               : 768px;
+$break-l                               : 992px;

@@ -1,0 +1,41 @@
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  color: $white;
+}
+
+body {
+  font-size: $base__font-size;
+	line-height: ($base__line/$base__font-size);
+	font-family: $font-family--secondary;
+  background-color: $color-primary;
+	min-height: 2000px;
+	position: relative;
+}
+
+h1 {
+
+}
+
+a {
+  color: $color-secondary;
+  text-decoration: underline;
+}
+
+p {
+  color: $white;
+  font-family: $font-family--secondary;
+}
+
+.wrapper {
+	max-width: 300px;
+	margin: 0 auto;
+  @media (min-width: $break-l) {
+		max-width: 1024px;
+	  margin: 0 auto;
+	}
+}
