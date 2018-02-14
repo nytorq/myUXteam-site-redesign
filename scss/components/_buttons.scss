@@ -1,15 +1,15 @@
-.to-the-top {
-  display: inline-block;
+.chip {
+  display: block;
+  margin: 0 auto;
   width: em(80px);
   height: em(80px);
   border-radius: 100%;
   background-color: rgba($color-secondary,0.75);
   border: none;
   position: relative;
-  top: -202px;
-  right: -112px;
+  top: -41px;
   @media (min-width: $break-l) {
-    right: -873px;
+    left: 40%;
   }
   &:hover {
     background-color: $color-secondary;
