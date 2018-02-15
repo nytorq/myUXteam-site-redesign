@@ -10,8 +10,14 @@
   bottom: -6px;
 }
 
-.to-the-top i {
+.chip i {
   position: relative;
   top: 14px;
   left: 15px;
+}
+
+.nav-icon {
+  float: right;
+  font-size: em(10px);
+  padding-top: 6px;
 }

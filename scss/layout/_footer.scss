@@ -6,16 +6,7 @@ footer {
   box-shadow: 0 -2px 11px 2px rgba($black,0.5)
 }
 
-.flex-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: relative;
-  bottom: em(54px);
-}
-
 .flex-child {
-  width: 300px;
   text-align: center;
   @media (min-width: $break-l) {
     margin: 0 3em;
@@ -23,13 +14,45 @@ footer {
   }
 }
 
+.footer-link {
+  font-size: em(40px);
+  text-decoration: none;
+  color: $white;
+  display: block;
+  text-align: center;
+  margin: 1em 0 0 0;
+  font-weight: $font-weight--semi-bold;
+  &:hover {
+    color: $color-secondary;
+    transition: 0.5s;
+  }
+}
+
+.ignore-hover {
+  pointer-events: none;
+}
+
+.flex-container {
+  @media (min-width: $break-l){
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .contact-info {
   text-align: left;
   list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 li {
   font-size: em(14px);
+  margin-bottom: 1em;
+}
+.contact-info li a {
+  padding: 1em 0;
 }
 
 .copyright {
@@ -37,4 +60,5 @@ li {
   text-align: center;
   color: $white;
   opacity: 0.5;
+  margin-top: 4em;
 }

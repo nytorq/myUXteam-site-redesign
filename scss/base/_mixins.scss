@@ -1,0 +1,19 @@
+// myUXteam logo
+@mixin logo ($t-align: center, $font-size: null) {
+  font-family: $font-family--primary;
+  font-weight: $font-weight--semi-bold;
+	line-height: (32px/$base__font-size);
+  color: $white;
+  display: block;
+  text-align: $t-align;
+  font-size: em($font-size);
+}
+
+//myUXteam tagline
+@mixin tagline ($t-align: center) {
+  color: rgba($white, 0.5);
+  text-align: $t-align;
+  font-weight: normal;
+  display: block;
+  margin-top: em(-10px);
+}
