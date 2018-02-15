@@ -51,11 +51,6 @@ p {
   top: 14px;
   left: 15px; }
 
-.nav-icon {
-  float: right;
-  font-size: 0.625em;
-  padding-top: 6px; }
-
 .nav-logo {
   font-family: "Work Sans", "Arial Black", Arial;
   font-weight: 600;
@@ -78,7 +73,8 @@ p {
   bottom: 0.5em; }
   @media (min-width: 992px) {
     .footer-logo {
-      text-align: left; } }
+      text-align: left;
+      margin-top: 1em; } }
 
 .UX {
   color: #47C4D9; }
@@ -108,7 +104,8 @@ p {
   top: -41px; }
   @media (min-width: 992px) {
     .chip {
-      left: 40%; } }
+      float: right;
+      top: -80px; } }
   .chip:hover {
     background-color: #47C4D9; }
 
@@ -295,23 +292,31 @@ th {
 
 nav {
   background-color: #353236;
-  box-shadow: 0 -2px 11px 2px rgba(11, 11, 11, 0.5);
+  box-shadow: 0 2px 11px 2px rgba(11, 11, 11, 0.5);
   height: 6.25em;
   position: fixed;
   top: 0px;
   width: 100%;
   z-index: 2; }
 
+.nav-links {
+  float: right;
+  position: relative;
+  left: 10px; }
+
 .nav-link {
   display: inline-block;
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
-  position: relative;
-  top: 50%; }
+  padding: 10px; }
   @media (min-width: 768px) {
     .nav-link {
       display: inline-block; } }
+
+.nav-wrapper {
+  position: relative;
+  top: 29%; }
 
 footer {
   background-color: #353236;
