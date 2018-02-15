@@ -9,7 +9,8 @@
   position: relative;
   top: -41px;
   @media (min-width: $break-l) {
-    left: 40%;
+    float: right;
+    top: -80px;
   }
   &:hover {
     background-color: $color-secondary;
