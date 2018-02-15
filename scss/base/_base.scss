@@ -13,18 +13,20 @@ body {
 	line-height: ($base__line/$base__font-size);
 	font-family: $font-family--secondary;
   background-color: $color-primary;
-	height: 150vh;
-	position: relative;
 }
 
 a {
   color: $color-secondary;
   text-decoration: underline;
 	&:hover {
-		color: $secondary-light;
+		color: $accent-light;
 		text-decoration: none;
 		transition: 0.5s;
 	}
+}
+
+.no-a-styles {
+	text-decoration: none;
 }
 
 p {

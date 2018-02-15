@@ -1,0 +1,21 @@
+img {
+	margin: 1em auto;
+}
+
+.fullwidth-img {
+	width: 100%;
+	@media (min-width: $break-m) {
+		max-width: 90%;
+	}
+}
+
+.halfwidth-img {
+	width: 100%;
+	@media (min-width: $break-m) {
+		max-width: 39.7%;
+	}
+}
+
+.round-img {
+  
+}
