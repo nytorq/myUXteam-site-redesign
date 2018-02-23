@@ -16,6 +16,11 @@ img {
 	}
 }
 
-.round-img {
-  
+.square-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  @media (min-width: $break-m) {
+    max-width: 90%;
+  }
 }

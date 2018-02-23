@@ -13,6 +13,7 @@ body {
 	line-height: ($base__line/$base__font-size);
 	font-family: $font-family--secondary;
   background-color: $color-primary;
+	padding-top: 100px;
 }
 
 a {
@@ -29,18 +30,21 @@ a {
 	text-decoration: none;
 }
 
-p {
-  color: $white;
-  font-family: $font-family--secondary;
-}
-
 .wrapper {
 	padding: 0 10px;
 	margin: 0 auto;
-	max-width: 1024px;
-  @media (min-width: $break-m) {
-		width: 90%;
-	  margin: 0 auto;
-		padding: 0;
+	max-width: 665px;
+}
+
+.ext-wrapper {
+  margin: 0 auto;
+  padding: 0 10px;
+	@media (min-width: $break-m) {
+		padding: 0 20px;
+		max-width: 984px;
+	}
+	@media (min-width: $break-l) {
+		padding: 0 30px;
+		max-width: 964px;
 	}
 }

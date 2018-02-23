@@ -1,0 +1,36 @@
+.project-title {
+  font-size: em(48px);
+}
+.project-services {
+	color: $color-secondary;
+  font-size: em(24px);
+  font-family: $font-family--primary;
+  font-weight: $font-weight--semi-bold;
+}
+
+.section-titles {
+  font-size: em(32px);
+  margin-bottom: 0;
+}
+
+p {
+  color: $white;
+  font-family: $font-family--secondary;
+  margin-top: 0.2em;
+  @media (min-width: $break-l) {
+		font-size: em(18px);
+	}
+}
+
+.header--all-caps {
+  font-size: em(40px);
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.portfolio__header {
+  font-size: em(40px);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

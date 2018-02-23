@@ -8,6 +8,7 @@ $font-url--google-Roboto               : 'https://fonts.googleapis.com/css?famil
 $icon-font-url--google                 : 'https://fonts.googleapis.com/icon?family=Material+Icons';
 $font-family--primary                  : 'Work Sans', 'Arial Black', Arial;
 $font-family--secondary                : 'Roboto', Helvetica, Arial, sans-serif;
+
 // Font Weights
 $font-weight--thin                     : 100;
 $font-weight--light                    : 300;
@@ -15,7 +16,8 @@ $font-weight--medium                   : 400;
 $font-weight--semi-bold                : 600;
 $font-weight--bold                     : 700;
 $font-weight--ultra-bold               : 900;
-// Descriptive Base Colors
+
+// Descriptive Base Colors for myUXteam
 $white                                 : #fff;
 $black                                 : #0b0b0b;
 
@@ -24,19 +26,40 @@ $empathy-purple                        : #5757E8;
 $progress-cyan                         : #47C4D9;
 $objective-gray                        : #D6D5CC;
 $minimalist-black                      : #353236;
+$determined-yellow                     : #FFC747;
+
+// Descriptive Base Colors for companies referenced in portfolio
+$nsp-blue                              : #015F85;
+$nsp-green                             : #7ABD45;
+
+$pep-tan                        : #A78154;
+$pep-black                      : #1A1114;
+
+$hue-gray                           : #454545;
+$hue-dark-gray                      : #2A2A2A;
+
+$tsp-red                               : #E73024;
+$tsp-dark-red                          : #A13427;
+
 // Color Usage
 $color-primary                         : $minimalist-black;
 $color-secondary                       : $progress-cyan;
 $color-accent                          : $empathy-purple;
+$color-bright                          : $determined-yellow;
 $color-shadow                          : rgba($minimalist-black, 0.75);
 
 $secondary-light                       : lighten($color-secondary, 25%);
 $accent-light                          : lighten($color-accent, 10%);
+
 // Text
 $base__font-size                       : 16px;
 $base__line                            : 24px;
+
 // Breakpoint
 $break-xs                              : 575px;
 $break-s                               : 576px;
 $break-m                               : 768px;
 $break-l                               : 992px;
+
+// Path to assets
+$path--rel                             : '../img';

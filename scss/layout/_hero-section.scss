@@ -1,0 +1,48 @@
+.hero-section {
+  height: 75vh;
+  background-color: $color-accent;
+  padding-top: 100px;
+}
+
+.hero-wrapper {
+  display: block;
+  height: 100%;
+  max-width: 93.4%;;
+  margin: 0 auto;
+  @media (min-width: $break-l) {
+    max-width: 95%;
+  }
+  &::before {
+    content: " ";
+    display: inline-block;
+    height: 100%;
+    width: 1%;
+    vertical-align: middle;
+  }
+}
+
+.hero-text {
+  font-size: em(28px);
+  display: inline-block;
+  vertical-align: middle;
+  width: 90%;
+  @media (min-width: $break-m) {
+    font-size: em(32px)
+  }
+  @media (min-width: $break-l) {
+    font-size: em(44px)
+  }
+}
+
+.hero-st {
+  text-decoration: line-through;
+}
+
+.hero-emphasized {
+  color: $color-bright;
+}
+
+.portfolio-hero {
+  height: 50vh;
+  background-color: $color-bright;
+}

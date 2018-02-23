@@ -3,18 +3,56 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 40px 0;
 }
 
-.body-wrapper {
-  padding-top: 120px;
-  padding-bottom: 40px;
+.flex-body a {
+  display: inherit;
 }
 
-.square-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 300px;
-  @media (min-width: $break-m) {
-    max-width: 90%;
+.portfolio__link {
+  width: 100%;
+  padding-bottom: 57.88%;
+  text-decoration: none;
+  position: relative;
+  max-height: 336px;
+  clip-path: inset(0 0 0 0);
+  max-height: 336px;
+  margin: em(32px) 0;
+  &--exp {
+    background: linear-gradient(139.79deg, $nsp-blue 0%, $nsp-green 100%);
+  }
+  &--pep {
+    background: linear-gradient(324.5deg, $pep-tan 0%, $pep-black 100%);
+  }
+  &--hue {
+    background: linear-gradient(227.19deg, $hue-gray 0%, $hue-dark-gray 100%);
+  }
+  &--tsp {
+    background: linear-gradient(180deg, $tsp-dark-red 0%, $tsp-red 100%);
+  }
+}
+
+.portfolio__image {
+  position: absolute;
+  bottom: 0;
+  background-size: cover;
+  margin: 0;
+  box-shadow: 0 0 14px 0 rgba($black,0.5);
+  &--exp {
+    @include img-replace('Submitter---Homescreen-v2.2.png', 70%, 56%, inherit);
+    right: 15%;
+  }
+  &--pep {
+    @include img-replace('peppermill-wireframe-in-an-iphone-1x.png', 70%, 56%, inherit);
+    right: 15%;
+  }
+  &--hue {
+    @include img-replace('hue-pro-presets-wireframe-in-android.png', 70%, 56%, inherit);
+    right: 15%;
+  }
+  &--tsp {
+    @include img-replace('tsp-vmi-wireframe-inside-an-iphone-5-1x.png', 70%, 56%, inherit);
+    right: 15%;
   }
 }
